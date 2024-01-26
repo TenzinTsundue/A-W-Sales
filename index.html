@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&W Sales Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favi.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <img id="logo" src="image/aw logo.png" alt="A&W Logo">
+        <p id="objective">
+            Objective:
+            Analyze sales trends, performance, and menu items for A&W stores in two locations. Evaluate promotion effectiveness, and conduct correlation and location analysis. Calculate Customer Lifetime Value (CLV) and apply predictive modeling. Optimize pricing strategies to drive growth and enhance performance in the specified A&W.
+        </p>
+        <div class="buttons">
+            <button class="gallery-button" onclick="openGallery()">Visualization</button>
+            <a href="insights.html">
+            <button class="analysisButton">Insights</button></a>
+            <a href="https://github.com/TenzinTsundue/DATA-ANALYST-PROJECTS/tree/main/A%26W" target="_blank">
+            <button class="analysisButton">Code</button></a>
+        </div>
+        <!-- <button class="gallery-button" onclick="openGallery()">Open Gallery</button> -->
+        <div id="galleryModal" class="modal">
+            <span class="close" onclick="closeGallery()">&times;</span>
+            <div class="gallery-content">
+                <img src="image/dash.png" alt="Image 1">
+            </div>
+            <a href="https://public.tableau.com/app/profile/tenzin.tsundue/viz/datasciencejobsalariesdashboard_17055595641690/Dashboard1" target="_blank">
+                <button class="tableauButton">Tableau Public Link</button>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
